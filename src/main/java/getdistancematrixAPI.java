@@ -9,7 +9,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class getdistancematrixAPI {
-    private static final String API_KEY = "AIzaSyBkGFg2E1FfbLLg1RV_da_cqekvtQ5l4GA";
+    private static final String API_KEY = "YOUR_API_KEY";
     public static float[][] distances;
     public static float[][] times;
     public static String[] cities = {"", "Bengaluru", "Chennai", "Goa", "Mumbai", "Hyderabad", "Kolkata", "Patna", "Delhi", "Jaipur,+Rajasthan", "Lukhnow"};
